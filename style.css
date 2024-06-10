@@ -1,0 +1,256 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto; 
+    background-color: #0D0C0C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*@font-face{
+    font-weight: 400;
+    font-family: "Roboto-regular";
+    src: url(//sources/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: Roboto;
+    src: url(//sources/Roboto-Light.ttf);
+}*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 121px;
+    width: 1301px;
+    position: fixed;
+    background-color: #0D0C0C;
+}
+
+.headerNav{
+    display: flex;
+    
+}
+
+.headerText{
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 36px; 
+    font-family:"Roboto-regular";
+    font-weight: 400;
+}
+
+
+h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Roboto;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+    font-family: Roboto;
+}
+
+h1{
+    font-size: 64px;
+    font-family: Roboto;
+    font-family: SourceSerif4;
+    font-weight: 300;
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 48px;
+    color: white;
+}
+
+p{
+    font-size: 26px;
+    color: white;
+    font-family: Roboto;
+    margin-top: 40px;
+    
+}
+
+.mainFrame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1302px;
+    height: 520px;
+    margin-top: 221px;
+}
+
+
+
+.h1anim{
+    transform: translate(0px , 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+
+    
+}
+
+.h1anim._active{
+    transform: translate(0px , 0px);
+    opacity: 1;
+}
+
+#h2Main{
+    margin-top: 24px;
+}
+
+.mainTagline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mainPhoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h3Contacts{
+    color: #756B6B;
+}
+
+.contactsMain{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1301px;
+}
+
+.contactsLogos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tagline{
+    margin-top: 172px;
+    width: 1301px;
+    height: 297px;
+    transform: translate(0px , 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.tagline._active{
+    transform: translate(0px , 0px);
+    opacity: 1;
+}
+
+#taglineDesign{
+    font-family: SourceSerif4;
+    font-size: 72px;
+    color: white;
+}
+
+#projectsHeader{
+    color: #756B6B;
+    
+}
+
+.Projects{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.projectsMain{
+    width: 1301px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#h3prod{
+    margin-top: 20px;
+}
+
+.imgprod{
+    margin-top: 60px;
+}
+
+.aboutMe{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutMain{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 1301px;
+}
+
+.text{
+    width: 520px;
+    
+    border-top: 2px solid #756B6B;
+    border-bottom: 2px solid #756B6B;
+    padding-top: 10px;
+    
+}
+
+.contacts{
+    width: 1301px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactsDesp{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sendBtn{
+    margin-top: 62px;
+    width: 440px;
+    height: 99px;
+    border-radius: 50px;
+}
+
+#btnText{
+    color: black;
+}
+
+.contactsIcon{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 422px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Desc{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
